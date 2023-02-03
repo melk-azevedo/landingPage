@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    list-style: none;
 }
 
 :root {
@@ -15,4 +17,52 @@ body {
 .page {
     width: 1134px;
     margin: 65px auto 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+nav ul {
+    list-style: none;
+
+    display: flex;
+    justify-content: space-around;
+    gap: 26px;
+
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin: 9px 153px 0;
+    color: #000000CC;
+}
+
+.images {
+    position: absolute;
+    z-index: 1;
+    bottom: 68%;
+    display: flex;
+    gap: 1100px;
+
+}
+
+article h1 {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43px;
 }
