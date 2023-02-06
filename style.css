@@ -11,20 +11,24 @@
 }
 
 body {
-    background: rgb(255, 255, 255);
+    background: #F5F5F5;
 }
 
 .page {
-    width: 1134px;
+    width: 1440px;
+    height: 1024px;
     margin: 65px auto 0;
     display: flex;
     flex-direction: column;
+
+    background: #ffffff;
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;   
+    justify-content: center;
+    align-items: center;
+    gap: 525px;   
 }
 
 nav ul {
@@ -50,12 +54,14 @@ main {
     justify-content: space-around;
     margin: 9px 153px 0;
     color: #000000CC;
+
+    position: relative;
 }
 
-.images {
+.setas {
     position: absolute;
     z-index: 1;
-    bottom: 68%;
+    bottom: 46%;
     display: flex;
     gap: 1100px;
 
@@ -108,13 +114,15 @@ button {
 
 .inferior {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 40px;
     margin-top: 42px ;
 }
 
 nav#segundo {
     position: absolute;
-    top: 55%;
+    z-index: 1;
+    top: 90%;
 
     display: flex;
     gap: 31px;
